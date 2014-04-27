@@ -3,7 +3,7 @@ Sparkngin JSON Module
 
 **How to use this module ?**
 
-Nginx Server source needs to be download inorder to build this module.
+Nginx Server source needs to be downloaded in order to build this module.
 So download nginx-1.*.* from nginx website and then follow below instructions.
 
 *_Note_: echo module is helpful to test this module so please download this also*
