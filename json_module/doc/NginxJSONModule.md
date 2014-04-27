@@ -1,4 +1,4 @@
-References for Nginx module development tutorials
+References for Nginx module development tutorial
 ------------------------------------------------
 
 - http://www.evanmiller.org/nginx-modules-guide.html
