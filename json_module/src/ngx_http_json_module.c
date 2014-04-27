@@ -116,7 +116,7 @@ ngx_int_t ngx_http_json_handler(ngx_http_request_t *r){
 // variable specific action
 static ngx_int_t ngx_http_json_variable(ngx_http_request_t *r,ngx_http_variable_value_t *v, uintptr_t data){
     u_char            *p;
-    u_char value[]="{'key':'value'}";
+    ngx_int_t value;
 
     p = ngx_pnalloc(r->pool, sizeof(value));
     if (p == NULL) {
@@ -126,7 +126,7 @@ static ngx_int_t ngx_http_json_variable(ngx_http_request_t *r,ngx_http_variable_
     /* data contains index a variable in declared variable list */
     switch (data){
         case 0:
-          value ="hello" ;
+          value =1 ;
           break;
         default:
           value = 0;
